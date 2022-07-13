@@ -1,0 +1,493 @@
+[
+	{
+		"model": "users.user",
+		"pk": 1,
+		"fields": {
+			"name": "Panhavoan",
+			"email": "panhavoan@gmail.com",
+			"password": "pbkdf2_sha256$260000$DccVyhS8i77EAzA57AM4Gd$9cOdRTUueS0htnwqwi0rYsNj6cfqEfMbQ89671oz2Ck=",
+			"token": "cadede4c70379de43f55559ea066557f8206adf8489639ccbbec486153ef",
+			"token_expires": "2021-11-15T08:25:48.054Z",
+			"created_at": "2021-11-04T08:24:00.848Z",
+			"updated_at": "2021-11-08T08:25:48.054Z"
+		}
+	},
+	{
+		"model": "users.user",
+		"pk": 2,
+		"fields": {
+			"name": "Book",
+			"email": "anny@gmail.com",
+			"password": "pbkdf2_sha256$260000$MBFqke1VFDvttHOFPL28et$mHWgzB8jWXJOBDyLdCwqYotkREROHU9o9mBsxb9TkTI=",
+			"token": "59d2508f01743b03ee24022c07955cfc3dbd20d6e5a53340adf1db5ecb69",
+			"token_expires": "2021-11-15T08:25:20.967Z",
+			"created_at": "2021-11-08T08:25:20.968Z",
+			"updated_at": "2021-11-08T08:25:20.968Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 2,
+		"fields": {
+			"name": "Shirt",
+			"image": "image/upload/v1636023558/jpwmm7vbdkc0obfhfwzb.png",
+			"created_at": "2021-11-04T10:59:18.648Z",
+			"updated_at": "2021-11-04T10:59:18.648Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 3,
+		"fields": {
+			"name": "Jeans",
+			"image": "image/upload/v1636023571/eapqybqeyrefzwcnma5s.png",
+			"created_at": "2021-11-04T10:59:32.473Z",
+			"updated_at": "2021-11-04T10:59:32.473Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 4,
+		"fields": {
+			"name": "Hat",
+			"image": "image/upload/v1636023587/qfdke9aavsyjkpw3rhtx.png",
+			"created_at": "2021-11-04T10:59:47.766Z",
+			"updated_at": "2021-11-04T10:59:47.766Z"
+		}
+	},
+	{
+		"model": "categories.category",
+		"pk": 5,
+		"fields": {
+			"name": "Sweatpants",
+			"image": "image/upload/v1636086547/rtajvimgcyl345ey74q1.jpg",
+			"created_at": "2021-11-05T04:12:34.233Z",
+			"updated_at": "2021-11-05T04:29:07.764Z"
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 1,
+		"fields": {
+			"name": "Adidas Yeezy",
+			"description": "Slim and sleek and good for the planet.",
+			"price": 65.0,
+			"image": "image/upload/v1636085559/omccmiso9ymz6ccyhqan.png",
+			"type": "female",
+			"category": 5
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 2,
+		"fields": {
+			"name": "PRIMEBLUE TRACK PANTS",
+			"description": "Sound too good to be true",
+			"price": 45.0,
+			"image": "image/upload/v1636085698/vfdlyu9cog7lav4wlvh7.png",
+			"type": "female",
+			"category": 5
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 3,
+		"fields": {
+			"name": "Believe This 2.0 Long Tights",
+			"description": "Women's Style",
+			"price": 75.0,
+			"image": "image/upload/v1636085862/xg9my6m94i1owokev4y6.png",
+			"type": "female",
+			"category": 5
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 4,
+		"fields": {
+			"name": "Adicolor Essentials Fleece Sweatshirt",
+			"description": "Women's Originals",
+			"price": 50.0,
+			"image": "image/upload/v1636085940/spsl3zpicnhinadjbxml.png",
+			"type": "female",
+			"category": 2
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 5,
+		"fields": {
+			"name": "Essentials Relaxed Logo Hoodie",
+			"description": "Women's Essentials",
+			"price": 40.0,
+			"image": "image/upload/v1636085960/v9qvnwiuitneluvjcm0s.png",
+			"type": "female",
+			"category": 2
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 6,
+		"fields": {
+			"name": "Brand Love Fleece Hoodie",
+			"description": "Women's Essentials Giant Logo",
+			"price": 50.0,
+			"image": "image/upload/v1636086002/ievy5w4gtpnhujzpbqve.png",
+			"type": "female",
+			"category": 2
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 7,
+		"fields": {
+			"name": "311 Shaping Skinny Women's Jeans",
+			"description": "A super-comfortable jean with a flattering skinny leg",
+			"price": 65.0,
+			"image": "image/upload/v1636086239/qkmp8n4ecsgkz9fqnqrl.png",
+			"type": "female",
+			"category": 3
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 8,
+		"fields": {
+			"name": "Ribcage Straight Ankle Women's Jeans",
+			"description": "Built to contour curves, lengthen legs",
+			"price": 59.99,
+			"image": "image/upload/v1636086291/cwkynuinxbtfbgxyxrcs.png",
+			"type": "female",
+			"category": 3
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 9,
+		"fields": {
+			"name": "501® Original Fit Women's Jeans",
+			"description": "Made with an innovative tummy-slimming panel",
+			"price": 68.99,
+			"image": "image/upload/v1636086337/pzjwvjkzcv0pigiazweh.png",
+			"type": "female",
+			"category": 3
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 10,
+		"fields": {
+			"name": "River Island double pom pom",
+			"description": "Outfit complete",
+			"price": 26.99,
+			"image": "image/upload/v1636095381/nt3fgwhfug9uhkzca29u.jpg",
+			"type": "female",
+			"category": 4
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 11,
+		"fields": {
+			"name": "ASOS DESIGN borg roll back",
+			"description": "Put a lid on it",
+			"price": 26.0,
+			"image": "image/upload/v1636095120/sge7fvhkhd0xaozgyisc.jpg",
+			"type": "female",
+			"category": 4
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 12,
+		"fields": {
+			"name": "My Accessories London Exclusive",
+			"description": "Exclusive to ASOS",
+			"price": 13.0,
+			"image": "image/upload/v1636087926/qitthsnqqbfwjwd4lnfw.jpg",
+			"type": "female",
+			"category": 4
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 13,
+		"fields": {
+			"name": "Peter England University",
+			"description": "Slim Men Light Blue Jeans",
+			"price": 39.55,
+			"image": "image/upload/v1636088186/ouc7du0ijibrm6qlqcfs.png",
+			"type": "male",
+			"category": 3
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 14,
+		"fields": {
+			"name": "METRONAUT",
+			"description": "Slim Men Grey Jeans",
+			"price": 29.0,
+			"image": "image/upload/v1636088245/tz7n67melxfaccgvkmd9.png",
+			"type": "male",
+			"category": 3
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 15,
+		"fields": {
+			"name": "Urbano Fashion",
+			"description": "Jogger Fit Men Grey Jeans",
+			"price": 49.0,
+			"image": "image/upload/v1636088306/xooptyrg50i5agmgt2ix.png",
+			"type": "male",
+			"category": 3
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 16,
+		"fields": {
+			"name": "Allen Solly",
+			"description": "Anti-Bacterial Men Slim Fit Checke",
+			"price": 19.0,
+			"image": "image/upload/v1636088369/hnv27hxoqtcdd8a7dsv2.png",
+			"type": "male",
+			"category": 2
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 17,
+		"fields": {
+			"name": "FLYING MACHINE",
+			"description": "Men Slim Fit Solid Casual Shirt",
+			"price": 39.0,
+			"image": "image/upload/v1636088422/kbshggwq5isezdu7j8pn.png",
+			"type": "male",
+			"category": 2
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 18,
+		"fields": {
+			"name": "Jai Textiles",
+			"description": "Men Slim Fit Solid Spread Collar",
+			"price": 29.0,
+			"image": "image/upload/v1636088453/un18b0dl4fyoczeuy3f4.png",
+			"type": "male",
+			"category": 2
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 19,
+		"fields": {
+			"name": "Lyle & Scott beanie in navy",
+			"description": "Cold-weather wins",
+			"price": 12.0,
+			"image": "image/upload/v1636088514/am6z1rerqkywcdyszx2c.png",
+			"type": "male",
+			"category": 4
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 20,
+		"fields": {
+			"name": "Carhartt WIP watch beanie in khaki",
+			"description": "Domed crown",
+			"price": 19.0,
+			"image": "image/upload/v1636088541/ryvw4agzjgpvnscbw9fu.png",
+			"type": "male",
+			"category": 4
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 21,
+		"fields": {
+			"name": "Carhartt WIP chase beanie in navy",
+			"description": "Turn-up brim",
+			"price": 15.0,
+			"image": "image/upload/v1636088585/tlrogn96ohdxozfe23ee.png",
+			"type": "male",
+			"category": 4
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 22,
+		"fields": {
+			"name": "Willit Men's Cotton Yoga",
+			"description": "Sweatpants Open Bottom Jogger",
+			"price": 33.99,
+			"image": "image/upload/v1636096101/fk6lmoe8ongzi5hjyqyv.jpg",
+			"type": "male",
+			"category": 5
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 23,
+		"fields": {
+			"name": "BALEAF Men's Cotton Yoga",
+			"description": "Sweatpants Lounge Pants Open",
+			"price": 35.99,
+			"image": "image/upload/v1636096177/t75jh82v7spwsi9tgj3w.jpg",
+			"type": "male",
+			"category": 5
+		}
+	},
+	{
+		"model": "products.product",
+		"pk": 24,
+		"fields": {
+			"name": "THE GYM PEOPLE Men's Fleece",
+			"description": "Pants with Deep Pockets Joggers",
+			"price": 30.99,
+			"image": "image/upload/v1636096137/vfjodsa46c92nq8nqbnv.jpg",
+			"type": "male",
+			"category": 5
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 1,
+		"fields": {
+			"user": 1,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "DDD",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 669.96,
+			"total_qty": 13
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 2,
+		"fields": {
+			"user": 1,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "DDD",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 693.99,
+			"total_qty": 12
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 3,
+		"fields": {
+			"user": 1,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "DDD",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 275.0,
+			"total_qty": 5
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 4,
+		"fields": {
+			"user": 2,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "DDD",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 185.0,
+			"total_qty": 3
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 5,
+		"fields": {
+			"user": 1,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "DDD",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 185.0,
+			"total_qty": 3
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 6,
+		"fields": {
+			"user": 1,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "ddd",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 185.0,
+			"total_qty": 3
+		}
+	},
+	{
+		"model": "orders.order",
+		"pk": 7,
+		"fields": {
+			"user": 1,
+			"customer_name": "DD",
+			"customer_phone": "0969643817",
+			"address": "48 house, 298 street, Boung Kork II, Toul Kork, Phnom Penh",
+			"pin_code": "12152",
+			"building_type": "ddd",
+			"city": "Phnom Penh",
+			"state": "Phnom Penh",
+			"total_price": 185.0,
+			"total_qty": 3
+		}
+	},
+	{ "model": "order_items.orderitem", "pk": 1, "fields": { "order": 1, "product": 4, "qty": 5 } },
+	{ "model": "order_items.orderitem", "pk": 2, "fields": { "order": 1, "product": 2, "qty": 4 } },
+	{ "model": "order_items.orderitem", "pk": 3, "fields": { "order": 1, "product": 8, "qty": 4 } },
+	{ "model": "order_items.orderitem", "pk": 4, "fields": { "order": 2, "product": 6, "qty": 4 } },
+	{ "model": "order_items.orderitem", "pk": 5, "fields": { "order": 2, "product": 9, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 6, "fields": { "order": 2, "product": 1, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 7, "fields": { "order": 2, "product": 2, "qty": 3 } },
+	{ "model": "order_items.orderitem", "pk": 8, "fields": { "order": 2, "product": 3, "qty": 3 } },
+	{ "model": "order_items.orderitem", "pk": 9, "fields": { "order": 3, "product": 1, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 10, "fields": { "order": 3, "product": 2, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 11, "fields": { "order": 3, "product": 3, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 12, "fields": { "order": 3, "product": 4, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 13, "fields": { "order": 3, "product": 5, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 14, "fields": { "order": 4, "product": 2, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 15, "fields": { "order": 4, "product": 1, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 16, "fields": { "order": 4, "product": 3, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 17, "fields": { "order": 5, "product": 2, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 18, "fields": { "order": 5, "product": 1, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 19, "fields": { "order": 5, "product": 3, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 20, "fields": { "order": 6, "product": 2, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 21, "fields": { "order": 6, "product": 1, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 22, "fields": { "order": 6, "product": 3, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 23, "fields": { "order": 7, "product": 3, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 24, "fields": { "order": 7, "product": 1, "qty": 1 } },
+	{ "model": "order_items.orderitem", "pk": 25, "fields": { "order": 7, "product": 2, "qty": 1 } }
+]

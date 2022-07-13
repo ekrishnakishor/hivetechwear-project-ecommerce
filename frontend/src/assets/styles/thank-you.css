@@ -1,0 +1,19 @@
+.thank-you {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    text-align: center;
+}
+
+.thank-you p:first-child {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.thank-you p:not(:first-child) {
+    margin: 5px 0;
+    font-size: 22px;
+}
