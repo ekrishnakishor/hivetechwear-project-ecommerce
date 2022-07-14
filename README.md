@@ -10,8 +10,6 @@ share products with friends on social media.
 
 ## Live Demo
 
-**This App uses a Heroku free plan, so I am afraid that it takes time to load the pages.**
-
 Check out [FRONTEND LIVE DEMO](https://hive-tech-wear-frontend.herokuapp.com/) here!!
 
 Check out [API LIVE DEMO](https://hive-tech-wear-backend.herokuapp.com/) here!!
